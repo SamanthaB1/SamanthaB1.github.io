@@ -2,6 +2,7 @@
 	<html lang="en">
 	  <head>
 	    <meta charset="utf-8">
+	       <title>Portfolio</title>
 	     <style>
       a:link, a:visited {
     background-color: #6F747B;
@@ -15,16 +16,13 @@
     a:hover, a:active {
     background-color: #6F747B;
     box-shadow: 10px 10px 5px #888888;
-        }
-    </style>
-	    <title>Portfolio</title>
-	  </head>
-	  ul {
+        }<style>
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #6F747B;
+    background-color: #333;
 }
 
 li {
@@ -39,13 +37,16 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: ##D9BEF8;
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #D9BEF8;
 }
 </style>
 </head>
 <body>
-
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="#portfolio.html">Portfolio</a></li>
