@@ -6,14 +6,41 @@
 	    <title>Portfolio</title>
 	  </head>
 	  <body>
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="resume.html">Resume</a>
-    <a href="athletics.html">Athletics</a>
-    <a href="links.html">Links</a>
-    <br><br>
-    
-    <style>
+	  <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6F747B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: ##D9BEF8;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="#portfolio.html">Portfolio</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  <li><a href="athletics.html">Athletics</a></li>
+    <li><a href="links.html">Links</a></li>
+</ul>
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
